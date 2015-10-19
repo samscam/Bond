@@ -39,6 +39,20 @@
 		2277E5581BD5AD0E0054C30C /* ObservableArrayEventTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD69831B77D45600837A36 /* ObservableArrayEventTests.swift */; };
 		2277E5591BD5AD110054C30C /* DisposableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF04DE1B808B20001F6BCA /* DisposableTests.swift */; };
 		2277E55A1BD5AD140054C30C /* EventProducerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD69801B77D45600837A36 /* EventProducerTests.swift */; };
+		2277E55D1BD5B13D0054C30C /* UIActivityIndicatorView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CB1B77BB1D00837A36 /* UIActivityIndicatorView+Bond.swift */; };
+		2277E55E1BD5B14A0054C30C /* UISegmentedControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3228A91B9F5673002BE73A /* UISegmentedControl+Bond.swift */; };
+		2277E5601BD5B21A0054C30C /* UIBarItem+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CC1B77BB1D00837A36 /* UIBarItem+Bond.swift */; };
+		2277E5611BD5B21A0054C30C /* UIButton+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CD1B77BB1D00837A36 /* UIButton+Bond.swift */; };
+		2277E5621BD5B21A0054C30C /* UICollectionView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CE1B77BB1D00837A36 /* UICollectionView+Bond.swift */; };
+		2277E5631BD5B21A0054C30C /* UIControl+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68CF1B77BB1D00837A36 /* UIControl+Bond.swift */; };
+		2277E5641BD5B21A0054C30C /* UIImageView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D11B77BB1D00837A36 /* UIImageView+Bond.swift */; };
+		2277E5651BD5B21A0054C30C /* UILabel+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D21B77BB1D00837A36 /* UILabel+Bond.swift */; };
+		2277E5661BD5B21A0054C30C /* UINavigationItem+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D31B77BB1D00837A36 /* UINavigationItem+Bond.swift */; };
+		2277E5671BD5B21A0054C30C /* UIProgressView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D41B77BB1D00837A36 /* UIProgressView+Bond.swift */; };
+		2277E5681BD5B21A0054C30C /* UITableView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D71B77BB1D00837A36 /* UITableView+Bond.swift */; };
+		2277E5691BD5B21A0054C30C /* UITextField+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D81B77BB1D00837A36 /* UITextField+Bond.swift */; };
+		2277E56A1BD5B21A0054C30C /* UITextView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68D91B77BB1D00837A36 /* UITextView+Bond.swift */; };
+		2277E56B1BD5B21A0054C30C /* UIView+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECAD68DA1B77BB1D00837A36 /* UIView+Bond.swift */; };
 		52CC7A1E1BC4C71F0010D41E /* NSAppearanceCustomization+Bond.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7A1D1BC4C71F0010D41E /* NSAppearanceCustomization+Bond.swift */; };
 		52CC7A201BC4C7DC0010D41E /* NSAppearanceCustomizationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52CC7A1F1BC4C7DC0010D41E /* NSAppearanceCustomizationTests.swift */; };
 		69491BB41A7C217100A13B6B /* Bond.h in Headers */ = {isa = PBXBuildFile; fileRef = 69491BB31A7C217100A13B6B /* Bond.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -234,7 +248,7 @@
 		DCA979731A83C3A200DD4A30 /* BondOSXTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BondOSXTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA3E36B71B41702100559641 /* NSLayoutConstraintTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintTests.swift; sourceTree = "<group>"; };
 		EC0075B21B90D39500249C31 /* EventProducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventProducer.swift; sourceTree = "<group>"; };
-		EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIRefreshControl+Bond.swift"; sourceTree = "<group>"; };
+		EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIRefreshControl+Bond.swift"; path = "NotTVOS/UIRefreshControl+Bond.swift"; sourceTree = "<group>"; };
 		EC3228A91B9F5673002BE73A /* UISegmentedControl+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISegmentedControl+Bond.swift"; sourceTree = "<group>"; };
 		EC3228AB1B9F5691002BE73A /* UISegmentedControlTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISegmentedControlTests.swift; sourceTree = "<group>"; };
 		ECAD68B81B77BB1D00837A36 /* BindableType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BindableType.swift; sourceTree = "<group>"; };
@@ -254,13 +268,13 @@
 		ECAD68CD1B77BB1D00837A36 /* UIButton+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68CE1B77BB1D00837A36 /* UICollectionView+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68CF1B77BB1D00837A36 /* UIControl+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIControl+Bond.swift"; sourceTree = "<group>"; };
-		ECAD68D01B77BB1D00837A36 /* UIDatePicker+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIDatePicker+Bond.swift"; sourceTree = "<group>"; };
+		ECAD68D01B77BB1D00837A36 /* UIDatePicker+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIDatePicker+Bond.swift"; path = "NotTVOS/UIDatePicker+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D11B77BB1D00837A36 /* UIImageView+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D21B77BB1D00837A36 /* UILabel+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UILabel+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D31B77BB1D00837A36 /* UINavigationItem+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UINavigationItem+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D41B77BB1D00837A36 /* UIProgressView+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIProgressView+Bond.swift"; sourceTree = "<group>"; };
-		ECAD68D51B77BB1D00837A36 /* UISlider+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISlider+Bond.swift"; sourceTree = "<group>"; };
-		ECAD68D61B77BB1D00837A36 /* UISwitch+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UISwitch+Bond.swift"; sourceTree = "<group>"; };
+		ECAD68D51B77BB1D00837A36 /* UISlider+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISlider+Bond.swift"; path = "NotTVOS/UISlider+Bond.swift"; sourceTree = "<group>"; };
+		ECAD68D61B77BB1D00837A36 /* UISwitch+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UISwitch+Bond.swift"; path = "NotTVOS/UISwitch+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D71B77BB1D00837A36 /* UITableView+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D81B77BB1D00837A36 /* UITextField+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Bond.swift"; sourceTree = "<group>"; };
 		ECAD68D91B77BB1D00837A36 /* UITextView+Bond.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Bond.swift"; sourceTree = "<group>"; };
@@ -400,6 +414,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		2277E55F1BD5B1B00054C30C /* Not tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */,
+				ECAD68D01B77BB1D00837A36 /* UIDatePicker+Bond.swift */,
+				ECAD68D51B77BB1D00837A36 /* UISlider+Bond.swift */,
+				ECAD68D61B77BB1D00837A36 /* UISwitch+Bond.swift */,
+			);
+			name = "Not tvOS";
+			sourceTree = "<group>";
+		};
 		69491BA41A7C217100A13B6B = {
 			isa = PBXGroup;
 			children = (
@@ -530,20 +555,17 @@
 		ECAD68CA1B77BB1D00837A36 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
+				2277E55F1BD5B1B00054C30C /* Not tvOS */,
 				ECAD68CB1B77BB1D00837A36 /* UIActivityIndicatorView+Bond.swift */,
 				EC3228A91B9F5673002BE73A /* UISegmentedControl+Bond.swift */,
-				EC2AE4A81B788F8B00296781 /* UIRefreshControl+Bond.swift */,
 				ECAD68CC1B77BB1D00837A36 /* UIBarItem+Bond.swift */,
 				ECAD68CD1B77BB1D00837A36 /* UIButton+Bond.swift */,
 				ECAD68CE1B77BB1D00837A36 /* UICollectionView+Bond.swift */,
 				ECAD68CF1B77BB1D00837A36 /* UIControl+Bond.swift */,
-				ECAD68D01B77BB1D00837A36 /* UIDatePicker+Bond.swift */,
 				ECAD68D11B77BB1D00837A36 /* UIImageView+Bond.swift */,
 				ECAD68D21B77BB1D00837A36 /* UILabel+Bond.swift */,
 				ECAD68D31B77BB1D00837A36 /* UINavigationItem+Bond.swift */,
 				ECAD68D41B77BB1D00837A36 /* UIProgressView+Bond.swift */,
-				ECAD68D51B77BB1D00837A36 /* UISlider+Bond.swift */,
-				ECAD68D61B77BB1D00837A36 /* UISwitch+Bond.swift */,
 				ECAD68D71B77BB1D00837A36 /* UITableView+Bond.swift */,
 				ECAD68D81B77BB1D00837A36 /* UITextField+Bond.swift */,
 				ECAD68D91B77BB1D00837A36 /* UITextView+Bond.swift */,
@@ -903,25 +925,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2277E55E1BD5B14A0054C30C /* UISegmentedControl+Bond.swift in Sources */,
 				2277E5501BD5ABEA0054C30C /* CALayer+Bond.swift in Sources */,
+				2277E5681BD5B21A0054C30C /* UITableView+Bond.swift in Sources */,
 				2277E54A1BD5ABB60054C30C /* BindableType.swift in Sources */,
 				2277E5461BD5ABAA0054C30C /* ObservableArray.swift in Sources */,
 				2277E5441BD5ABA40054C30C /* EventProducer.swift in Sources */,
+				2277E5661BD5B21A0054C30C /* UINavigationItem+Bond.swift in Sources */,
 				2277E54D1BD5ABBF0054C30C /* Queue.swift in Sources */,
 				2277E54C1BD5ABBD0054C30C /* Buffer.swift in Sources */,
+				2277E5641BD5B21A0054C30C /* UIImageView+Bond.swift in Sources */,
 				2277E5451BD5ABA70054C30C /* Observable.swift in Sources */,
 				2277E5431BD5ABA10054C30C /* EventProducerType.swift in Sources */,
+				2277E5621BD5B21A0054C30C /* UICollectionView+Bond.swift in Sources */,
 				2277E5471BD5ABAD0054C30C /* ObservableArrayEvent.swift in Sources */,
+				2277E5631BD5B21A0054C30C /* UIControl+Bond.swift in Sources */,
 				2277E5511BD5ABEE0054C30C /* NSIndexSet+Bond.swift in Sources */,
+				2277E5691BD5B21A0054C30C /* UITextField+Bond.swift in Sources */,
 				2277E5551BD5ABFB0054C30C /* NSObject+Bond.swift in Sources */,
 				2277E5521BD5ABF20054C30C /* NSLayoutConstraint+Bond.swift in Sources */,
 				2277E54B1BD5ABBA0054C30C /* OptionalType.swift in Sources */,
+				2277E5651BD5B21A0054C30C /* UILabel+Bond.swift in Sources */,
+				2277E5611BD5B21A0054C30C /* UIButton+Bond.swift in Sources */,
 				2277E5531BD5ABF50054C30C /* NSLock+Bond.swift in Sources */,
+				2277E55D1BD5B13D0054C30C /* UIActivityIndicatorView+Bond.swift in Sources */,
 				2277E54F1BD5ABC60054C30C /* Operators.swift in Sources */,
 				2277E54E1BD5ABC30054C30C /* Reference.swift in Sources */,
 				2277E5541BD5ABF80054C30C /* NSNotificationCenter+Bond.swift in Sources */,
+				2277E5671BD5B21A0054C30C /* UIProgressView+Bond.swift in Sources */,
+				2277E56A1BD5B21A0054C30C /* UITextView+Bond.swift in Sources */,
 				2277E5491BD5ABB30054C30C /* Disposable.swift in Sources */,
 				2277E5481BD5ABB10054C30C /* DisposableType.swift in Sources */,
+				2277E5601BD5B21A0054C30C /* UIBarItem+Bond.swift in Sources */,
+				2277E56B1BD5B21A0054C30C /* UIView+Bond.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
